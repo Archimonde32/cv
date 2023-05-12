@@ -103,6 +103,16 @@ section > div{
 .contact-mob p:last-child{
     flex: 0 0 60%;
 }
+/* social */
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
 /* experience */
 .exp{
     display: flex;
@@ -115,9 +125,16 @@ section > div{
     display: flex;
     flex-flow: column wrap;
 }
+.exp-photo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
 .exp-info{
     flex: 0 0 60%;
     margin-left: auto;
+}
+.exp img{
+width: 100%;
 }
 .exp h3{
     font-size: 1.3em;
@@ -182,4 +199,45 @@ section > div{
     height: 80px;
     border-radius: 50%;
     box-shadow: 0 0 15px #555;
+}
+@media screen and(min-width: 980px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb ;
+    }
+    a:hover{
+        color: #EA0;
+    }
+    header h1{
+        width: 80%;
+    }
+    .presen, .contact{
+        flex: 0 0 45%;
+    }
+    .presen{
+        border-bottom: none;
+        border-right: 2px solid #ccc;
+        padding-right: 20px;
+        margin-left: auto;
+    }
+    .contact{
+        padding-left: 20px;
+        margin-right: auto;
+    }
+    .presen a{
+        border: 2px solid transparent;
+    }
+    .presen a:hover{
+        color: #f28835;
+        background-color: #fff;
+        border: 2px solid #f28835;
+        box-shadow: 0px 0px 20px #666;
+    }
+    .exp-info, .exp-desc{
+        flex: 0 0 85%;
+        margin-left: auto;
+    }
+    .interet{
+        flex: 0 1 25%;
+    }
 }
