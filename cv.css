@@ -77,3 +77,17 @@ section > div{
     border-radius: 50%;
     margin-top: -80px;
 }
+/* present */
+.presen{
+    border-bottom: 2px dashed #ccc;
+}
+.presen a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: #EA0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
