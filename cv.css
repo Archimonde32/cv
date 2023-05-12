@@ -17,3 +17,33 @@ a{
     text-decoration: none;
     color: #000;
 }
+/* header et footer */
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background:#4f4f4f;
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px #fff;
+    height: 120px;
+}
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+footer{
+    border-top: 2px solid #fff;
+    background-image: url("");
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
