@@ -91,3 +91,15 @@ section > div{
     box-shadow: 0px 0px 10px #ccc;
     border-radius: 5px;
 }
+/* contact */
+.contact-mob{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-mob p:first-child{
+    flex: 0 0 40%;
+}
+.contact-mob p:last-child{
+    flex: 0 0 60%;
+}
