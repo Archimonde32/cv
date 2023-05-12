@@ -126,17 +126,60 @@ section > div{
     font-size: 1em;
     font-weight: normal;
 }
-.comp{
+.comp , .comp2{
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 10px;
 }
-.comp p{
+.comp, .comp2 p{
     flex: 0 0 40%;
 }
-.conteneur-barre{
-    flex: 0 0 60%;
+.conteneur-barre ,.conteneur-barre2{
+    flex: 0 0 70%;
     border-radius: 5px;
     background-color: grey;
     border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c20{
+    width: 20%;
+    background-color: aqua;
+}
+.c40{
+    width: 40%;
+    background-color: aqua;
+}
+.c60{
+    width: 60%;
+    background-color: aqua;
+}
+.c50{
+    width: 50%;
+    background-color: aqua;
+}
+.c75{
+    width: 75%;
+    background-color: aqua;
+}
+.c90{
+    width: 90%;
+    background-color: aqua;
+}
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap ;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #555;
 }
