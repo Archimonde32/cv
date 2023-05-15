@@ -22,7 +22,7 @@ a{
 header, footer{
     width: 100%;
     padding: 20px 0px;
-    background: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/cv-cover.jpg") #4f4f4f;
+    background: url("./img/gojoban2.jpg") #4f4f4f;
     box-shadow: 0px 0px 15px #333;
 }
 header{
@@ -30,7 +30,7 @@ header{
     height: 120px;
 }
 header h1{
-    color: white;
+    color: rgb(28, 193, 205);
     font-size: 1.5em;
     width: 90%;
     margin: 0 auto;
@@ -42,7 +42,7 @@ footer{
 footer p{
     width: 90%;
     margin: 0 auto;
-    color: #fff;
+    color: #090303;
     text-align: center;
 }
 footer a{
@@ -172,27 +172,27 @@ section > div{
 }
 .c20{
     width: 20%;
-    background-color: #8B8;
+    background-color: rgb(223, 5, 5);
 }
 .c40{
     width: 40%;
-    background-color: #4B8;
+    background-color: rgb(50, 235, 232);
 }
 .c50{
     width: 50%;
-    background-color: #4B8;
+    background-color: rgb(223, 5, 5);
 }
 .c60{
-    width: 100%;
-    background-color: #4B8;
+    width: 60%;
+    background-color: rgb(50, 235, 232);
 }
 .c75{
     width: 75%;
-    background-color: #4B8;
+    background-color: rgb(193, 11, 189);
 }
 .c90{
     width: 90%;
-    background-color: #4B8;
+    background-color: rgb(193, 11, 189);
 }
 
 
