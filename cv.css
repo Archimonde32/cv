@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #ededed;
+    background-image: linear-gradient(black, grey, white);
 }
 p{
     font-size: 1em;
@@ -58,7 +58,7 @@ section{
     padding-bottom: 20px;
     margin: 20px auto;
     box-shadow: 0px 0px 10px #bbb;
-    background-color: #fff;
+    background-image: linear-gradient(to right, white,grey);
 }
 
 section h2{
@@ -69,7 +69,7 @@ section > div{
     width: 90%;
 }
 
-/*SECTION INFOS*/
+/*INFOS*/
 .photo{
     text-align: center;
 }
@@ -172,27 +172,27 @@ section > div{
 }
 .c20{
     width: 20%;
-    background-color: rgb(223, 5, 5);
+    background-color: rgb(17, 76, 4);
 }
 .c40{
     width: 40%;
-    background-color: rgb(50, 235, 232);
+    background-color: rgb(6, 105, 8);
 }
 .c50{
     width: 50%;
-    background-color: rgb(223, 5, 5);
+    background-color: rgb(9, 131, 19);
 }
 .c60{
     width: 60%;
-    background-color: rgb(50, 235, 232);
+    background-color: rgb(10, 151, 22);
 }
 .c75{
     width: 75%;
-    background-color: rgb(193, 11, 189);
+    background-color: rgb(40, 192, 13);
 }
 .c90{
     width: 90%;
-    background-color: rgb(193, 11, 189);
+    background-color: rgb(55, 242, 23);
 }
 
 
