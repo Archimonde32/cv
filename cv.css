@@ -156,7 +156,7 @@ section > div{
     margin-bottom: 10px;
 }
 .comp p{
-    flex: 0 0 40%;
+    flex: 0 0 60%;
 }
 .conteneur-barre{
     flex: 0 0 60%;
@@ -170,29 +170,53 @@ section > div{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+@keyframes p1 {
+    from{background-size:0%;}
+    to{background-size: 100%;}
+    }
 .c20{
-    width: 20%;
-    background-color: rgb(17, 76, 4);
+    width:20%;
+    height: 23px;
+    background:linear-gradient(#000 0 0) 0/0% no-repeat grey;
+    animation:p1 6s ;
+    animation-fill-mode: forwards;
 }
+
 .c40{
-    width: 40%;
-    background-color: rgb(6, 105, 8);
+    width:40%;
+    height: 23px;
+    background:linear-gradient(#000 0 0) 0/0% no-repeat grey;
+    animation:p1 6s ;
+    animation-fill-mode: forwards;
 }
+
 .c50{
-    width: 50%;
-    background-color: rgb(9, 131, 19);
+    width:50%;
+    height: 23px;
+    background:linear-gradient(#000 0 0) 0/0% no-repeat grey;
+    animation:p1 6s ;
+    animation-fill-mode: forwards;
 }
 .c60{
-    width: 60%;
-    background-color: rgb(10, 151, 22);
+    width:60%;
+    height: 23px;
+    background:linear-gradient(#000 0 0) 0/0% no-repeat grey;
+    animation:p1 6s ;
+    animation-fill-mode: forwards;
 }
 .c75{
-    width: 75%;
-    background-color: rgb(40, 192, 13);
+    width:75%;
+    height: 23px;
+    background:linear-gradient(#000 0 0) 0/0% no-repeat grey;
+    animation:p1 6s ;
+    animation-fill-mode: forwards;
 }
 .c90{
-    width: 90%;
-    background-color: rgb(55, 242, 23);
+    width:90%;
+    height:23px;
+    background:linear-gradient(#000 0 0) 0/0% no-repeat grey;
+    animation:p1 6s ;
+    animation-fill-mode: forwards;
 }
 
 
