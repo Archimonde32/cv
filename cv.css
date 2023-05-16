@@ -281,3 +281,15 @@ section > div{
         flex: 0 1 25%;
     }
 }
+/* lightmod */
+.white {
+    background-image: -moz-linear-gradient(white,white,white);
+}
+
+button{
+    width: 13rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+}
