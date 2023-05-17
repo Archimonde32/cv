@@ -286,10 +286,11 @@ section > div{
     background-image: linear-gradient(white,white,white);
 }
 
-button{
+#button{
     width: 13rem;
         height: 2rem;
         font-size: 1.5rem;
         background-color: rgb(255, 255, 255);
         border-radius: 12px;
 }
+
