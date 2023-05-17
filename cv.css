@@ -283,7 +283,7 @@ section > div{
 }
 /* lightmod */
 .white {
-    background-image: -moz-linear-gradient(white,white,white);
+    background-image: linear-gradient(white,white,white);
 }
 
 button{
