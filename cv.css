@@ -292,8 +292,8 @@ section > div{
     background-image: linear-gradient(white,white,white);
 }
 
-#button{
-    padding: 15px 25px;
+#button,#button2{
+padding: 15px 25px;
 font-size: 24px;
 text-align: center;
 cursor: pointer;
@@ -301,7 +301,7 @@ outline: none;
 color: #040404;
 background-color: #ffffff;
 border: none;
-border-radius: 15px;
+border-radius: 50%;
 box-shadow: 0 9px #090909;
 }
 

@@ -15,8 +15,8 @@ function myFunction() {
     let button = document.getElementById('button');
     
        // change the button text
-    if (button.innerHTML == "Light Mode") {
-        button.innerHTML = "Dark Mode";
+    if (button.innerHTML == "Light") {
+        button.innerHTML = "Dark";
         button.style.color = "white";
         button.style.backgroundColor = "black";
         button.style.boxShadow = "0 9px white";
@@ -29,7 +29,7 @@ function myFunction() {
 
         
     } else {
-        button.innerHTML = "Light Mode";
+        button.innerHTML = "Light";
         button.style.color = "black";
         button.style.backgroundColor = "white";
         button.style.boxShadow = "0 9px #090909";
@@ -41,4 +41,16 @@ function myFunction() {
         });
     }
     }
-    
+
+function jap(){
+    var intro = document.getElementById('pres');
+    let button2 = document.getElementById("button2")
+    if (intro.innerHTML ==="Présentation",button2.innerHTML =="Japonais") {
+        intro.innerHTML = "自己紹介";
+        button2.innerHTML = "Français"
+        
+    }else{
+        intro.innerHTML = "Présentation";
+        button2.innerHTML = "Japonais";
+    }
+}
