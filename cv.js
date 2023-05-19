@@ -20,11 +20,25 @@ function myFunction() {
         button.style.color = "white";
         button.style.backgroundColor = "black";
         button.style.boxShadow = "0 9px white";
+        button.addEventListener('mouseover', function handleMouseOver() {
+            button.style.backgroundColor = '#c6ccc6';
+        });
+        button.addEventListener('mouseout', function handleMouseOut() {
+            button.style.backgroundColor = 'black';
+        });
+
+        
     } else {
         button.innerHTML = "Light Mode";
         button.style.color = "black";
         button.style.backgroundColor = "white";
         button.style.boxShadow = "0 9px #090909";
+        button.addEventListener('mouseover', function handleMouseOver() {
+            button.style.backgroundColor = '#d5d7d5';
+        });
+        button.addEventListener('mouseout', function handleMouseOut() {
+            button.style.backgroundColor = 'white';
+        });
     }
     }
     

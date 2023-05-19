@@ -266,14 +266,14 @@ section > div{
     }
     .presen a:hover{
         color: #f28835;
-        background-image: linear-gradient(to right , black,rgb(149, 146, 146),black,rgb(91, 88, 88),black,white,rgb(69, 68, 68));
-        animation: slidebg 2s linear infinite;
+        background-image: repeating-linear-gradient(45deg , black 1px,transparent 2px,black,transparent 5px,black,white,rgb(69, 68, 68));
+        animation: slidebg 5s linear infinite forwards;
         border: 2px solid #f28835;
         box-shadow: 0px 0px 20px #666;
     }
     @keyframes slidebg {
         to {
-        background-position:20vw;
+        background-position:50vw;
         }
     }
     .exp-photo{
@@ -305,7 +305,7 @@ border-radius: 15px;
 box-shadow: 0 9px #090909;
 }
 
-#button:hover {background-color: #d5d7d5}
+/* #button:hover {background-color: #c6ccc6} */
 
 #button:active {
     background-color: #d5d7d5;
