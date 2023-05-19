@@ -16,9 +16,15 @@ function myFunction() {
     
        // change the button text
     if (button.innerHTML == "Light Mode") {
-        button.innerHTML = "Normal Mode";
+        button.innerHTML = "Dark Mode";
+        button.style.color = "white";
+        button.style.backgroundColor = "black";
+        button.style.boxShadow = "0 9px white";
     } else {
-        button.innerHTML = "Light Mode"
+        button.innerHTML = "Light Mode";
+        button.style.color = "black";
+        button.style.backgroundColor = "white";
+        button.style.boxShadow = "0 9px #090909";
     }
     }
     

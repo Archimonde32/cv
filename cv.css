@@ -266,9 +266,15 @@ section > div{
     }
     .presen a:hover{
         color: #f28835;
-        background-color: #fff;
+        background-image: linear-gradient(to right , black,rgb(149, 146, 146),black,rgb(91, 88, 88),black,white,rgb(69, 68, 68));
+        animation: slidebg 2s linear infinite;
         border: 2px solid #f28835;
         box-shadow: 0px 0px 20px #666;
+    }
+    @keyframes slidebg {
+        to {
+        background-position:20vw;
+        }
     }
     .exp-photo{
         flex: 0 0 10%;
@@ -292,17 +298,17 @@ font-size: 24px;
 text-align: center;
 cursor: pointer;
 outline: none;
-color: #fff;
-background-color: #000503;
+color: #040404;
+background-color: #ffffff;
 border: none;
 border-radius: 15px;
-box-shadow: 0 9px #999;
+box-shadow: 0 9px #090909;
 }
 
-#button:hover {background-color: #353735}
+#button:hover {background-color: #d5d7d5}
 
 #button:active {
-    background-color: #3e8e41;
+    background-color: #d5d7d5;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
