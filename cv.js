@@ -45,20 +45,29 @@ function myFunction() {
 function jap(){
     let intro = document.getElementById('pres');
     let titreP = document.getElementById('pro');
-    let etude = document.getElementById('etude')
+    let etude = document.getElementById('etude');
+    let comp = document.getElementById('comp');
+    let CI = document.getElementById('CI');
+    let contact = document.getElementById('contact');
 
     let button2 = document.getElementById("button2")
     if (intro.innerHTML ==="Présentation",button2.innerHTML =="Japonais") {
         intro.innerHTML = "自己紹介";
         titreP.innerHTML = "職歴"
         etude.innerHTML = "学歴"
-
+        comp.innerHTML = "特技"
+        CI.innerHTML = "趣味‐得意科目"
+        contact.innerHTML = "連絡";
         button2.innerHTML = "Français"
         
     }else{
         intro.innerHTML = "Présentation";
         titreP.innerHTML = "Experiences Professionnelles"
         etude.innerHTML = "Formation"
+        comp.innerHTML = "Compétences"
+        CI.innerHTML = "Centre d'interêt"
+        contact.innerHTML = "Information de contact"
+
         button2.innerHTML = "Japonais";
 
     }

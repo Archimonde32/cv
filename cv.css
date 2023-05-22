@@ -30,6 +30,8 @@ header, footer{
 header{
     border-bottom: 2px solid #fff;
     height: 120px;
+    justify-content: space-between;
+    display: flex;
 }
 header h1{
     color: rgb(28, 193, 205);
@@ -292,10 +294,10 @@ section > div{
 }
 
 
-#button,#button2{
-padding: 15px 25px;
-font-size: 24px;
-text-align: center;
+#button{
+padding: 11px 20px;
+font-size: 20px;
+text-align: left;
 cursor: pointer;
 outline: none;
 color: #040404;
@@ -304,7 +306,18 @@ border: none;
 border-radius: 50%;
 box-shadow: 0 9px #090909;
 }
-
+#button2{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+    outline: none;
+    color: #040404;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px #090909;
+    }
 #button:hover,#button2:hover {background-color: #d5d7d5}
 
 #button:active,#button2:active {
