@@ -289,9 +289,7 @@ section > div{
     background-image: linear-gradient(white,white,white);
     transition: 2s;
 }
-.green{
-    background-image: linear-gradient(green,green,yellow);
-}
+
 
 
 #button{

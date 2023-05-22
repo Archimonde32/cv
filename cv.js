@@ -52,7 +52,7 @@ function jap(){
         comp.innerHTML = "特技"
         CI.innerHTML = "趣味‐得意科目"
         contact.innerHTML = "連絡";
-        button2.innerHTML = "Français"
+        button2.innerHTML = "フランス語"
         
     }else{
         intro.innerHTML = "Présentation";
