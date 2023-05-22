@@ -13,7 +13,7 @@ function myFunction() {
     section4.classList.toggle("white");
     section5.classList.toggle("white");
     let button = document.getElementById('button');
-    
+
        // change the button text
     if (button.innerHTML == "Light") {
         button.innerHTML = "Dark";
@@ -43,14 +43,23 @@ function myFunction() {
     }
 
 function jap(){
-    var intro = document.getElementById('pres');
+    let intro = document.getElementById('pres');
+    let titreP = document.getElementById('pro');
+    let etude = document.getElementById('etude')
+
     let button2 = document.getElementById("button2")
     if (intro.innerHTML ==="Présentation",button2.innerHTML =="Japonais") {
         intro.innerHTML = "自己紹介";
+        titreP.innerHTML = "職歴"
+        etude.innerHTML = "学歴"
+
         button2.innerHTML = "Français"
         
     }else{
         intro.innerHTML = "Présentation";
+        titreP.innerHTML = "Experiences Professionnelles"
+        etude.innerHTML = "Formation"
         button2.innerHTML = "Japonais";
+
     }
 }
