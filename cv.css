@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(black, grey, white);
+    background-image: linear-gradient(to bottom,black, grey, white);
     transition: 2s
 }
 
@@ -25,9 +25,9 @@ header, footer{
     width: 100%;
     padding: 20px 0px;
     box-shadow: 0px 0px 15px #333;
-    background-color: #000000;
+    background-color: #000;
     animation-name: HF;
-    animation-duration: 25s;
+    animation-duration: 42s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -61,6 +61,29 @@ header{
 95%{background-color: #ffffff;}
 100%{background-color: #000000;}
 }
+/* @keyframes HF{
+    0%{background-image: linear-gradient(to right,black, grey, white);}
+    5%{background-image: linear-gradient(to right,5deg,black, grey, white);}
+    10%{background-image: linear-gradient(to right,10deg,black, grey, white);}
+    15%{background-image: linear-gradient(to right,15deg,black, grey, white);}
+    20%{background-image: linear-gradient(to right,20deg,black, grey, white);}
+    25%{background-image: linear-gradient(to right,25deg,black, grey, white);}
+    30%{background-image: linear-gradient(to right,30deg,black, grey, white);}
+    35%{background-image: linear-gradient(to right,35deg,black, grey, white);}
+    40%{background-image: linear-gradient(to right,40deg,black, grey, white);}
+    45%{background-image: linear-gradient(to right,45deg,black, grey, white);}
+    50%{background-image: linear-gradient(to right,50deg,black, grey, white);}
+    55%{background-image: linear-gradient(to right,55deg,black, grey, white);}
+    60%{background-image: linear-gradient(to right,60deg,black, grey, white);}
+    65%{background-image: linear-gradient(to right,65deg,black, grey, white);}
+    70%{background-image: linear-gradient(to right,70deg,black, grey, white);}
+    75%{background-image: linear-gradient(to right,75deg,black, grey, white);}
+    80%{background-image: linear-gradient(to right,80deg,black, grey, white);}
+    85%{background-image: linear-gradient(to right,85deg,black, grey, white);}
+    90%{background-image: linear-gradient(to right,90deg,black, grey, white);}
+    95%{background-image: linear-gradient(to right,95deg,black, grey, white);}
+    100%{background-image: linear-gradient(to right,100deg,black, grey, white);}
+    } */
 
 header h1{
     color: rgb(28, 193, 205);
