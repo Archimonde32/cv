@@ -344,7 +344,7 @@ section > div{
 
 
 
-#button{
+#button,#button3{
 padding: 11px 20px;
 font-size: 20px;
 text-align: left;
@@ -368,9 +368,9 @@ box-shadow: 0 9px #090909;
     border-radius: 50%;
     box-shadow: 0 9px #090909;
     }
-#button:hover,#button2:hover {background-color: #d5d7d5}
+#button:hover,#button2:hover,#button3:hover {background-color: #d5d7d5}
 
-#button:active,#button2:active {
+#button:active,#button2:active,#button3:active {
     background-color: #d5d7d5;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
