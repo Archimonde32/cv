@@ -82,3 +82,13 @@ function jap(){
 
     }
 }
+const btn = document.getElementById('button3');
+const pok = document.getElementById('poke');
+
+btn.addEventListener('click',function(e){
+if(pok.paused){
+    pok.play()
+}else{
+    pok.pause()
+}
+})
