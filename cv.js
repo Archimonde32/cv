@@ -1,6 +1,8 @@
 function myFunction() {
     var body = document.body;
     var sections = document.querySelectorAll('.masection');
+    const jour = document.getElementById('jour');
+    const nuit = document.getElementById('nuit');
        // toggle the theme
     body.classList.toggle("white");
     sections.forEach((sections) => {
@@ -14,6 +16,8 @@ function myFunction() {
         button.style.color = "white";
         button.style.backgroundColor = "black";
         button.style.boxShadow = "0 9px white";
+        jour.play();
+
         button.addEventListener('mouseover', function handleMouseOver() {
             button.style.backgroundColor = '#c6ccc6';
         });
@@ -27,6 +31,7 @@ function myFunction() {
         button.style.color = "black";
         button.style.backgroundColor = "white";
         button.style.boxShadow = "0 9px #090909";
+        nuit.play();
         button.addEventListener('mouseover', function handleMouseOver() {
             button.style.backgroundColor = '#d5d7d5';
         });
@@ -57,11 +62,11 @@ function jap(){
         comp.innerHTML = "特技";
         CI.innerHTML = "趣味‐得意科目";
         contact.innerHTML = "連絡";
-        nom.innerHTML = "名前";
-        adress.innerHTML = "住所";
-        num.innerHTML = "電話番号";
-        mail.innerHTML = "ナイル"
-        permis.innerHTML= "運転免許"
+        nom.innerHTML = "名前 :";
+        adress.innerHTML = "住所 :";
+        num.innerHTML = "電話番号 :";
+        mail.innerHTML = "ナイル :"
+        permis.innerHTML= "運転免許 :"
 
         button2.innerHTML = "フランス語";
         
@@ -92,3 +97,4 @@ if(pok.paused){
     pok.pause()
 }
 })
+
